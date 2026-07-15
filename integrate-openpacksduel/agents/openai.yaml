@@ -1,0 +1,4 @@
+interface:
+  display_name: "Integrate OpenPacks Duel"
+  short_description: "Build safe API and MCP duel integrations"
+  default_prompt: "Use $integrate-openpacksduel to design this integration against the preview API contract."
