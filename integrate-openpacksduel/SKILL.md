@@ -7,8 +7,9 @@ description: Design and implement safe OpenPacks Duel integrations using the pre
 
 ## Workflow
 
-1. Read the canonical `openapi.yaml` from `openpacksduel/docs` before designing endpoints or
-   types. Treat it as preview until the corresponding API deployment is confirmed.
+1. Read the canonical `apps/docs/openapi.yaml` from `openpacksduel/app` before designing
+   endpoints or types. The preview implementation lives in `apps/api`; treat it as
+   non-production until the corresponding API deployment is confirmed.
 2. Choose the narrowest surface:
    - public API for application integrations;
    - MCP for agent-facing read operations;
