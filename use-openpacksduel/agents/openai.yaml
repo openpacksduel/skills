@@ -1,0 +1,4 @@
+interface:
+  display_name: "Use OpenPacks Duel"
+  short_description: "Create, join, explain, and share pack duels"
+  default_prompt: "Use $use-openpacksduel to explain this duel and choose the safest next action."
