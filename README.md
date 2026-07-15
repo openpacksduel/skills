@@ -23,8 +23,8 @@ loaded only when relevant.
 
 ## Related repositories
 
-- [Developer docs](https://github.com/openpacksduel/docs)
-- [MCP server](https://github.com/openpacksduel/mcp)
+- [Developer docs](https://github.com/openpacksduel/app/tree/main/apps/docs)
+- [MCP server](https://github.com/openpacksduel/app/tree/main/apps/mcp)
 - [Solana escrow](https://github.com/openpacksduel/escrow)
 
 ## License

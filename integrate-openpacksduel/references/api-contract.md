@@ -1,6 +1,7 @@
 # API contract reference
 
-Canonical source: `https://github.com/openpacksduel/docs/blob/main/openapi.yaml`.
+Canonical source:
+`https://github.com/openpacksduel/app/blob/main/apps/docs/openapi.yaml`.
 
 ## Preview operations
 
