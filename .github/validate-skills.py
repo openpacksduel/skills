@@ -38,11 +38,18 @@ def validate(skill_name: str) -> list[str]:
 
 
 def main() -> int:
-    errors = [error for skill in sys.argv[1:] for error in validate(skill)]
+    skill_names = sys.argv[1:] or sorted(
+        path.parent.name for path in Path.cwd().glob("*/SKILL.md")
+    )
+    if not skill_names:
+        print("No skills found", file=sys.stderr)
+        return 1
+
+    errors = [error for skill in skill_names for error in validate(skill)]
     if errors:
         print("\n".join(errors), file=sys.stderr)
         return 1
-    print(f"Validated {len(sys.argv) - 1} skills")
+    print(f"Validated {len(skill_names)} skills")
     return 0
 
 
